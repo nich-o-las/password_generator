@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <h1>Password Generator</h1>
+    </header>
+    <div id="content" class="clearfix">
+      <h2>Generate a Password</h2>
+      <div id="choices" class="">
+        <label for="number-select">Number Of Characters:</label>
+        <input type="number" id="number-select" name="number-select" min="8" max="128"><br>
+        <input id="capitals" type="checkbox" value="capitals">include capital letters</input><br>
+        <input id="lower-case" type="checkbox" value="lowerCase">include lower case letters</input><br>
+        <input id="nums" type="checkbox" value="nums">include numbers</input><br>
+        <input id="symbols" type="checkbox" value="symbols">include symbols</input>
+      </div>
+      <div id="results" class="">
+        <button id="generate">Generate Password</button>
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+        <br>
+        <button id="copy">Copy to Clipboard</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
