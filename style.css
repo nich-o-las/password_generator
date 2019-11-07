@@ -40,8 +40,9 @@ h1,h2{
     float:left;
 }
 
-input, textarea{
+textarea{
     padding: .5em;
+    border-radius: 10px;
 }
 
 textarea{
@@ -55,7 +56,9 @@ button{
 }
 
 #number-select{
-
+    box-shadow: none;
+    padding: .5em;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 625px){
