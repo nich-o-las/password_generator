@@ -12,7 +12,8 @@
 
 body{
     font-family: 'Cutive Mono', monospace;
-    background: grey;
+    background: #FFA396;
+    color:#211F26;
 }
 
 h1,h2{
@@ -22,13 +23,13 @@ h1,h2{
 #content{
     max-width: 700px;
     margin: auto;
-    background: white;
+    background: #FFE1D1;
     border-radius: 10px;
     box-shadow: 1px 1px 1px black;
 }
 
 #choices{
-    padding: 1em;
+    padding: 1em .5em;
     width: 50%;
     float: left;
 }
@@ -38,9 +39,23 @@ h1,h2{
     padding: 1em .5em;
     float:left;
 }
+
+input, textarea{
+    padding: .5em;
+}
+
 textarea{
     margin-top: .5em;
     width: 100%;
+}
+
+button{
+    padding: .5em;
+    border-radius: 10px;
+}
+
+#number-select{
+
 }
 
 @media screen and (max-width: 625px){

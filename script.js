@@ -26,7 +26,7 @@ function creator(num){
     }
 
     if(newArr.length === 0){
-        return "You select at least one option";
+        return "You must check at least one option";
     }
 
     for(var i = 0; i < num; i++){
