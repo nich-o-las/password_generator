@@ -12,10 +12,14 @@
 
 body{
     font-family: 'Cutive Mono', monospace;
-    background: #FFA396;
-    color:#211F26;
+    background: url('assets/footer_lodyas.png');
+    color:#1B1F1C;
 }
 
+h1{
+    color: #828282;
+    text-shadow: 2px 2px 2px black;
+}
 h1,h2{
     text-align: center;
 }
@@ -23,9 +27,9 @@ h1,h2{
 #content{
     max-width: 700px;
     margin: auto;
-    background: #FFE1D1;
+    background:#827575;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
 }
 
 #choices{
@@ -53,6 +57,7 @@ textarea{
 button{
     padding: .5em;
     border-radius: 10px;
+    font-family: 'Cutive Mono', monospace;
 }
 
 #number-select{
