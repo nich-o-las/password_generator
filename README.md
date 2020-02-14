@@ -1,8 +1,10 @@
 #password-generator
 
-A random password generator created using html, css, and javascript. 
+### A random password generator created using html, css, and javascript/jQuery. 
 
-User is able to select whether the password contains upper-case letters, 
-lower-case letters, numbers, symbols, or any combination of all 4. 
-User is also to choose the number of characters in the password.
+## User Story: 
+### As a privacy-concerned citizen: 
+1. I would like to create a secure password.
+2. I would like to be able to select which characters my password will consist of (upper/lower-case letters, numbers, symbols)
+3. I would like to be able to choose the length of my password.
 
