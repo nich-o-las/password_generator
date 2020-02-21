@@ -1,6 +1,11 @@
 # password-generator
+Random password generator 
 
-### A random password generator created using html, css, and javascript/jQuery. 
+![](./passwordGenerator.gif)
+
+## Tools Used:
+1. HTML/CSS
+2. JavaScript/JQuery
 
 ## User Story: 
 ### As a privacy-concerned citizen: 
@@ -8,4 +13,4 @@
 2. I would like to be able to select which characters my password will consist of (upper/lower-case letters, numbers, symbols)
 3. I would like to be able to choose the length of my password.
 
-#### Deployed App: https://nich-o-las.github.io/password_generator/
+## View deployed app [HERE](https://nich-o-las.github.io/password_generator/)
